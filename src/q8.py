@@ -28,11 +28,15 @@ Task
 
 def count_evens(numbers):
     # your corrected code here
-    pass
+        count = 0
+        for n in numbers:
+            if n % 2 == 0:  
+                count = count + 1
+        return count
 
 
 """
 (c) In one sentence, explain in plain English what `n % 2 == 0` checks.
 
-    Answer: check if the remainder after division is equal to zero
+    Answer: check if the remainder after division of 2 is equal to zero
 """
