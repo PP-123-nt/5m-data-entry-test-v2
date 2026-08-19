@@ -18,7 +18,7 @@ Snippet 1
 
 (a) What does this print? Write the exact value.
 
-    Answer: 17
+    Answer: 17 (0+8+9)
 
 (b) In one sentence, describe in plain English what this loop computes.
 

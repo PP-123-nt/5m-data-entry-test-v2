@@ -20,7 +20,7 @@ Task
 
 (a) What does the buggy version actually return for [1, 2, 3, 4, 5, 6, 8], and why?
 
-    Answer: Because this command " if n % 2 == 1" includes numbers whihc are not evenly divided by 2
+    Answer: Because command " if n % 2 == 1" includes numbers which are not evenly divided by 2
 
 (b) Fix the bug. Write the corrected function below.
     (A one-character change is enough, but you must understand why.)

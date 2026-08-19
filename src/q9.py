@@ -16,15 +16,15 @@ You have a local copy of a repo. You want to:
 Write the exact git command for each step (one per line).
 """
 
-# Step 1 — Create a new branch called `my-solutions`:
+# Step 1 — Create a new branch called `my-solutions`: git branch my-solutions
 
-# Step 2 — Switch to `my-solutions`:
+# Step 2 — Switch to `my-solutions`: git checkout my-solutions
 
-# Step 3 — Stage q4.md:
+# Step 3 — Stage q4.md: git add src/q4.md
 
-# Step 4 — Commit with message "Add Q4 answers":
+# Step 4 — Commit with message "Add Q4 answers": git commit -m "Add Q4 answers"
 
-# Step 5 — Push `my-solutions` to the remote:
+# Step 5 — Push `my-solutions` to the remote: git push
 
 
 """
@@ -32,5 +32,5 @@ Step 6 (short answer). You run `git status` and it says
 `Changes not staged for commit`. In one sentence, what does that tell you,
 and which command moves a file from there into the next commit?
 
-    Answer:
+    Answer: Changes not stagged for commit means updates are not added. git add command will move them into the next commit
 """
